@@ -3,7 +3,7 @@ data "azurerm_resource_group" "main" {
 }
 
 module "aks" {
-    source  = "tfe.<student-id>.<lab-id>.workshops.arctiq.ca/<TFE-ORG>/aks/azure"
+    source  = "tfe.astrader.3381802800.workshops.arctiq.ca/myteranet/aks/azure"
     version = "1.0.1"
 
     # insert required variables here
