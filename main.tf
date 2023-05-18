@@ -7,9 +7,9 @@ module "aks" {
     version = "1.0.0"
 
     # insert required variables here
-    cluster_name          = var.cluster_name
+    cluster_name          = azurerm_kubernetes_cluster.default.name
     resource_group_name   = data.azurerm_resource_group.main.name
-    ARM_CLIENT_ID         = var.ARM_CLIENT_ID
-    ARM_CLIENT_SECRET     = var.ARM_CLIENT_SECRET
-    prefix                = var.prefix
+    ARM_CLIENT_ID         = 0b9f0800-f971-4f22-a7be-9b33d9e9ca2e
+    ARM_CLIENT_SECRET     = Dc~8Q~yv8VUb6.bMCObtn5AWEBiY6rjT0RJrYaqq
+    prefix                = astrader
 }
