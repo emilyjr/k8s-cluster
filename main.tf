@@ -4,7 +4,7 @@ data "azurerm_resource_group" "main" {
 
 module "aks" {
     source  = "tfe.astrader.3381802800.workshops.arctiq.ca/myteranet/aks/azure"
-    version = "1.0.0"
+    version = "1.0.1"
 
  cluster_name          = var.cluster_name
     resource_group_name   = data.azurerm_resource_group.main.name
