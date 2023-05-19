@@ -28,6 +28,7 @@ No requirements.
 | ARM\_CLIENT\_ID | n/a | `any` | n/a | yes |
 | ARM\_CLIENT\_SECRET | n/a | `any` | n/a | yes |
 | prefix | n/a | `any` | n/a | yes |
+| prefix | n/a | `any` | n/a | yes |
 
 ## Outputs
 
